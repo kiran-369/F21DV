@@ -1,0 +1,14 @@
+<script src="https://d3js.org/d3.v7.min.js"></script>  
+<script>
+var numbers = [83, 32, 14, 52, 31, 66, 12, 11];
+
+console.log( d3.mean(numbers) );
+
+console.log( d3.sum(numbers) / d3.count(numbers) );
+
+console.log( d3.median(numbers) );
+
+console.log( d3.extent(numbers) );
+
+console.log( d3.deviation(numbers) );
+</script>
